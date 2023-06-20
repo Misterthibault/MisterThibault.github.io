@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Architects+Daughter|Indie+Flower|Karla');
+body{
+  padding: 0;
+  margin: 0;
+  background-image:-moz-linear-gradient(45deg, #00ccff, #00ffea );
+  background-image:-webkit-linear-gradient(45deg, #261758, #615192 );
+  background-image:-o-linear-gradient(45deg, #261758, #615192 );
+  background-image:linear-gradient(90deg, #238505, #13e2c7);
+}
+a{
+  color: #260339;
+}
+a:hover{
+  color: #9775AA;
+}
+
+#myself{
+  border-radius: 20px;
+  height: 250px;
+  width: 250px;
+}
+h1{
+  color: #484c96;
+  text-shadow: 8px 8px 0px #d11e34;
+  height:auto;
+  width:750;
+  text-align: center;
+  font-size: 70px;
+}
+#nav {
+
+  text-align: left;
+  font-size: 30px;
+  padding-top: 40px;
+  margin-left: 20px;
+  position: fixed;
+}
+#nav li {
+  display: inline-block;
+  list-style: none;
+  border-radius: 2px;
+}
+#nav a {
+  display:inline-block;
+  margin: 0 30px;
+}
+ul{
+  list-style: none;
+}
+#Conteneur1{
+  display: flex;
+  justify-content:space-around;
+  padding-bottom: 300px;
+  padding-top: 200px
+}
+#infos{
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFF0AA;
+}
+#mesLiens{
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+#conteneur2 {
+  display: flex;
+  justify-content:center;
+  padding-bottom: 100px;
+  }
+#linux{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+  font-size: 20px;
+
+}
+#lignesDeCommandes{
+  border-radius:2;
+  height:100px;
+  width: 250px;
+}
+#nano{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+#github{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+#atom{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+#gimp{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+#conteneur3{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+#html{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+#css{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+#php{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+#apache{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+#vhost{
+  border-radius:2;
+  height:100px;
+  width: 150px;
+}
+
+#experiences{
+  border-radius: 20px;
+  background-color: #7678b9;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFF0AA
+}
+#hobbits{
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFF0AA;
+  border-radius: 1px;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #f01c1c;
+}
+#hInfos{
+  text-align: left;
+  font-weight: bold;
+  color: #808015;
+  margin-left: 50px;
+}
+#hLiens{
+  text-align: center;
+  font-weight: bold;
+  color: #808015;
+}
+#logiciels{
+  text-align: center;
+  font-weight: bold;
+  color: #0a5329;
+  font-size: 40px;
+  }
+#languages{
+  text-align: center;
+  font-weight: bold;
+  color: #0a5329;
+  font-size: 40px;
+}
+#conteneur3{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 300px;
+}
+#hExperiences{
+  text-align: center;
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#hHobbits{
+  text-align: center;
+  font-weight: bold;
+  color: #fabc82;
+  font-size: 40px;
+  padding-bottom: 200px;
+}
+.policeExperiences{
+  font-family: "Indie Flower";
+  font-size: 30px;
+}
+.policeHobbits{
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Karla', sans-serif;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+}
+#bike{
+  height: auto;
+  width: 10%;
+}
+#dice{
+  height: auto;
+  width: 10%;
+}
+#computer{
+  height: auto;
+  width: 10%;
+}
+dt{
+  font-family: cursive;
+  color: #ff0000;
+  font-size: 30px;
+  text-align: center;
+}

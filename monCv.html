@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="monCv.css">
+  <script src="raphael-2.1.4.min.js"></script>
+  <script src="justgage.js"></script>
+  <title>mon cv</title>
+</head>
+<body>
+  <h1 id="acceuil">MON CV</h1><br>
+  <ul id="nav">
+    <li><a href="#acceuil">Acceuil</a></li>
+    <li><a href="#infos">Infos/Liens</a></li>
+    <li><a href="#logiciels">Compétences</a></li>
+    <li><a href="#hExperiences">Expériences</a></li>
+    <li><a href="#hobbits">Loisirs</a></li>
+  </ul>
+  <div id="Conteneur1">
+    <div id="infos">
+      <h2 id="hInfos">Mes infos personel
+  
+  </h2>
+      
+        <li>Thibault Ponchelet </li><br>
+        <li>59980 bertry </li><br>
+        <li>06 45 55 10 66 </li><br>
+        <li><a href="thibault.ponchelet@gmail.com">cont@ctez_moi</a></li>
+      </ul>
+    </div>
+    <div id="mesLiens">
+      <h2 id="hLiens">Mes liens</h2>
+      <ul>
+        <li><a href="https://github.com/Misterthibault"target="blank">github</a></li><br>
+        <li><a href="https://www.youtube.com/@thibaultponchelet"target="blank">youtube</a></li><br>
+      </ul>
+    </div>
+  </div>
+  <h2 id="logiciels">Logiciels et Applications</h2>
+  <div id="conteneur2">
+    <div id="linux" >
+      <script >
+      var jauge1 = new JustGage({
+        id: "linux",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "Linux"
+      });
+      </script>
+    </div>
+    <div id="lignesDeCommandes" >
+      <script>
+      var jauge2 = new JustGage({
+        id: "lignesDeCommandes",
+        value: 25,
+        min: 0,
+        max: 100,
+        title: "Lignes de commandes"
+      });
+      </script>
+    </div>
+    <div id="github" >
+      <script>
+      var jauge4 = new JustGage({
+        id: "github",
+        value: 15,
+        min: 0,
+        max: 100,
+        title: "Git-github"
+      });
+      </script>
+    </div>
+    </div>
+  </div>
+  <h2 id="languages">Languages et serveurs</h2>
+  <div id="conteneur3">
+
+    <div id="html">
+      <script>
+      var jauge7 = new JustGage({
+        id: "html",
+        value: 25,
+        min: 0,
+        max: 100,
+        title: "Html"
+      });
+      </script>
+    </div>
+    <div id="css">
+      <script>
+      var jauge8 = new JustGage({
+        id: "css",
+        value:15 ,
+        min: 0,
+        max: 100,
+        title: "CSS"
+      });
+      </script>
+    </div>
+    <div id="php">
+      <script>
+      var jauge9 = new JustGage({
+        id: "php",
+        value: 0,
+        min: 0,
+        max: 100,
+        title: "PHP"
+      });
+      </script>
+    </div>
+    <div id="apache">
+      <script>
+      var jauge10 = new JustGage({
+        id: "apache",
+        value: 0,
+        min: 0,
+        max: 100,
+        title: "Apache"
+      });
+      </script>
+    </div>
+    <div id="vhost">
+      <script>
+      var jauge11 = new JustGage({
+        id: "vhost",
+        value: 0,
+        min: 0,
+        max: 100,
+        title: "VHOST"
+      });
+      </script>
+    </div>
+  </div>
+  <div id="experiences">
+    <h2 id="hExperiences">Expériences </h2>
+    <div class="policeExperiences">
+      <dl>
+        <dt> college </dt><br>
+          <dd> pendant 4 ans a <a href="https://www.saint-michel-solesmes.com/"target="blank">st michel </a> a solemes (59) </dd><br>
+          <dt>stage de 3ème</dt><br>
+          <dd>stage chez un responsanble QSE dans l'entreprise qualiservice </dd><br>   
+        <dt> lycée </dt><br>
+          <dd> 2nd en général a <a href="https://www.saintluc-cambrai.com/"target="blank">st luc </a> a cambrai (59)</dd><br>
+        <dt>stage de 2nd</dt><br>
+          <dd>programeur informatique dans l'entreprise qualiservice</dd><br>
+        <dt>plus tard </dt><br>
+          <dd>1ère dans <a href="https://ltpes.saintluc-cambrai.com/systemes-numeriques.html"target="blank">bac pro SN </a> (système numérique) puis un<a href="https://ltpes.saintluc-cambrai.com/bts-sio.html"target="blank">BTS SIO </a> (services informatiques aux organisations)</dd><br>
+      </ul>
+    </div>
+  </div>
+  <div id="conteneur4">
+    <div id="hobbits">
+      <h2 id="hHobbits">Loisirs</h2>
+      <div class="policeHobbits">
+        <figure>
+          <figcaption>joue tout les jours au jeux vidéo</figcaption><br>
+          <figcaption>adore la musique des année 80 / rock / metal </figcaption><br>
+          <figcaption>lis des manga </figcaption><br>
+        </figure>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
